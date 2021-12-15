@@ -33,7 +33,7 @@ namespace ConsultaAPI
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Lojas Rede Swagger", Version = "v1" });
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "API Swagger", Version = "v1" });
             });
 
             services.AddControllersWithViews().AddNewtonsoftJson(options =>
