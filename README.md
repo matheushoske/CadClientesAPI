@@ -32,7 +32,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/matheushoske/CadClientesAPI">
-    <img src="https://github.com/matheushoske/CadClientesAPI/blob/main/images/swagger.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/matheushoske/CadClientesAPI/blob/master/images/swagger.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">API de Clientes</h3>
@@ -126,8 +126,8 @@ To get a local copy up and running follow these simple example steps.
 
 Para o funcionamento correto da API, será necessário realizar a instalação e configuração do banco de dados MySQL
 
-1. Para a instalação do serviço do MySQL será necessário primeiramente instalar e executar MySQL64bits.exe: [https://github.com/matheushoske/CadClientesAPIblob/master/MySQL64bits.exe](https://github.com/matheushoske/CadClientesAPI/MySQL64bits.exe)
-2. Instalar e executar o conector do MySQL para .NET mysql-connector-net.msi: [https://github.com/matheushoske/CadClientesAPI/blob/master/mysql-connector-net.msi]
+1. Para a instalação do serviço do MySQL será necessário primeiramente instalar e executar [MySQL64bits.exe](https://1drv.ms/u/s!Ajl_kq6K-uvNyEWbAadJxrqgeioF?e=1SX6nA)
+2. Instalar e executar o conector do MySQL para .NET [mysql-connector-net.msi](https://1drv.ms/u/s!Ajl_kq6K-uvNyEeYPxFbMN2iDTwI?e=PBUcec)
 3. Execute as queries para criação do Banco sql-create.sql: https://github.com/matheushoske/CadClientesAPI/blob/master/sql-create.sql </br>
    Será realizada a criação do usuário 'rede' com senha 'rede' e o banco de dados bdclientes
 
@@ -159,7 +159,7 @@ A API já virá totalmente configurada com swagger, IIS Express e comunicações
   1.1 - Execute a API e acesse o caminho local. Padrão: https://localhost:44382/swagger/</br>
   1.2 - Na interface da API com swagger, você conseguirá realizar os testes de execução dos métodos, clique em [try out] no método que deseja executar</br>
   (inicie pelo POST,para cadastrar o primeiro cliente.), insira as informações do cliente no json exibido, e clique em execute.</br>
-  <img src="https://github.com/matheushoske/CadClientesAPI/blob/main/images/swagger_post1.png" alt="Logo"></br></br>
+  <img src="https://github.com/matheushoske/CadClientesAPI/blob/master/images/swagger_post1.png" alt="Logo"></br></br>
   
 2- Pelo APP CadClientes em Windows Forms</br>
   2.1 - Clone e executeo o projeto <a href="https://github.com/matheushoske/CadClientes">CadClientes</a></br>
@@ -181,7 +181,7 @@ _Para mais exemplos, acesse a documentação do CadClientes [Documentation](http
 - [] Feature 3
     - [] Nested Feature-->
 
-See the [open issues](https://github.com/matheushoske/CadClientes/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/matheushoske/CadClientesAPI/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
